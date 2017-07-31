@@ -19,3 +19,23 @@ nav {
 nav span {
   display: inline-block;
 }
+
+/* Main Content */
+
+.column.large {
+  width: 630px;
+  display: flex;
+  border: 1px solid black;
+}
+
+.column.medium {
+  width: 300px;
+  display: flex;
+  border: 1px solid black;
+}
+
+.column.small {
+  width: 240px;
+  display: flex;
+  border: 1px solid black;
+}
