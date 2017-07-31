@@ -1,11 +1,21 @@
 /* Header */
 
-#header {
+header {
   font-family: verdana;
   font-size: 14px;
   font-weight: bold;
+  display: flex;
 }
 
 logo {
   color: mediumaquamarine;
+  display: flex;
+}
+
+nav {
+  color: black;
+}
+
+nav span {
+  display: inline-block;
 }
