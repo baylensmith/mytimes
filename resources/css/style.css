@@ -1,7 +1,7 @@
 /* Header */
 
 header {
-  font-family: verdana;
+  font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
   display: flex;
@@ -21,6 +21,12 @@ nav span {
 }
 
 /* Main Content */
+
+.column {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
 
 .column.large {
   width: 630px;
