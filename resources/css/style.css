@@ -7,58 +7,59 @@ header {
   display: flex;
   flex-direction: column;
   position: fixed;
-  margin: 5px 0px 300px 20px;
+  margin-bottom: 200px;
+  border-bottom: 2px solid black;
 }
 
 header logo {
   display: flex;
   position: fixed;
+  flex-grow: 1;
 }
 
 header h1 {
   display: flex;
   position: fixed;
   color: mediumaquamarine;
-  margin: 5px 0px 300px 100px;
+  margin-left: 100px;
 }
 
 header nav {
   display: flex;
-  flex-direction: column;
   position: fixed;
-  margin: 5px 0px 300px 1000px;
-
+  flex-grow: 1;
+  margin: 40px 5px 300px 900px;
 }
 
 nav span {
   display: inline-block;
   color: black;
-  padding: 0px 5px;
+  padding: 0px 10px;
 }
 
 /* Main Content Structure */
 
-div.column {
+.column {
   font-family: Georgia;
   font-size: 17px;
   color: black;
 }
 
-div.column #large {
+.column#large {
   width: 630px;
   display: flex;
   flex-direction: column;
   border: 1px solid black;
 }
 
-div.column #medium {
+.column#medium {
   width: 300px;
   display: flex;
   flex-direction: column;
   border: 1px solid black;
 }
 
-div.column #small {
+.column#small {
   width: 240px;
   display: flex;
   flex-direction: column;
@@ -66,11 +67,10 @@ div.column #small {
 }
 
   /* Stories */
-div.column #large #story-1 {
+.column#large #story-1 {
   display: flex;
   background: url('file://C:codingprojects/mytimes/resources/images/main-story.png');
   background-size: cover;
-  height: auto;
   width: 630px;
   color: white;
   font-family: Georgia;
@@ -78,11 +78,10 @@ div.column #large #story-1 {
   font-size: 40px;
 }
 
-div.column #large #story-2 {
+.column#large #story-2 {
   display: flex;
   background: url('file://C:codingprojects/mytimes/resources/images/fall-season.png');
   background-size: cover;
-  height: 600;
   width: 630px;
   color: white;
   font-family: Georgia;
@@ -90,11 +89,10 @@ div.column #large #story-2 {
   font-size: 30px;
 }
 
-div.column #large #story-3 {
+.column#large #story-3 {
   display: flex;
   background: url('file://C:codingprojects/mytimes/resources/images/hipster-cameraman.png');
   background-size: cover;
-  height: 600;
   width: 630px;
   color: white;
   font-family: Georgia;
@@ -102,7 +100,7 @@ div.column #large #story-3 {
   font-size: 30px;
 }
 
-div.column #medium #story-4 {
+.column#medium #story-4 {
   background: url('file://C:codingprojects/mytimes/resources/images/cat-ceo.png');
   background-size: cover;
   color:white;
