@@ -5,44 +5,110 @@ header {
   font-size: 14px;
   font-weight: bold;
   display: flex;
-  color: mediumaquamarine;
+  flex-direction: column;
+  position: fixed;
+  margin: 5px 0px 300px 20px;
 }
 
-logo {
+header logo {
   display: flex;
+  position: fixed;
 }
 
-nav {
-  color: black;
+header h1 {
+  display: flex;
+  position: fixed;
+  color: mediumaquamarine;
+  margin: 5px 0px 300px 100px;
+}
+
+header nav {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  margin: 5px 0px 300px 1000px;
+
 }
 
 nav span {
   display: inline-block;
-  align-items: flex-end;
+  color: black;
+  padding: 0px 5px;
 }
 
-/* Main Content */
+/* Main Content Structure */
 
-.column {
+div.column {
   font-family: Georgia;
   font-size: 17px;
   color: black;
 }
 
-.column.large {
+div.column #large {
   width: 630px;
   display: flex;
+  flex-direction: column;
   border: 1px solid black;
 }
 
-.column.medium {
+div.column #medium {
   width: 300px;
   display: flex;
+  flex-direction: column;
   border: 1px solid black;
 }
 
-.column.small {
+div.column #small {
   width: 240px;
   display: flex;
+  flex-direction: column;
   border: 1px solid black;
 }
+
+  /* Stories */
+div.column #large #story-1 {
+  display: flex;
+  background: url('file://C:codingprojects/mytimes/resources/images/main-story.png');
+  background-size: cover;
+  height: auto;
+  width: 630px;
+  color: white;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+div.column #large #story-2 {
+  display: flex;
+  background: url('file://C:codingprojects/mytimes/resources/images/fall-season.png');
+  background-size: cover;
+  height: 600;
+  width: 630px;
+  color: white;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+div.column #large #story-3 {
+  display: flex;
+  background: url('file://C:codingprojects/mytimes/resources/images/hipster-cameraman.png');
+  background-size: cover;
+  height: 600;
+  width: 630px;
+  color: white;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+div.column #medium #story-4 {
+  background: url('file://C:codingprojects/mytimes/resources/images/cat-ceo.png');
+  background-size: cover;
+  color:white;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.column#small
