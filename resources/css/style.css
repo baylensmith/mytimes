@@ -87,40 +87,44 @@ main {
   border: 1px solid black;
 }
 
-  /* Stories */
-.column.large #story-1 {
-  display: flex;
-  background-image: url('./resources/images/main-story.png');
-  background-size: cover;
-  width: 630px;
-  font-size: 40px;
+#story-1 {
+    display: flex;
+    background-image: url(../images/main-story.png);
+    background-size: cover;
+    width: 630px;
+    font-size: 40px;
+    color: white;
 }
 
-.column.large #story-2 {
+#story-2 {
   display: flex;
-  background-image: url('./resources/images/fall-season.png');
-  background-size: cover;
-  width: 630px;
-  font-size: 30px;
-}
-
-.column.large #story-3 {
-  display: flex;
-  background-image: url('./resources/images/hipster-cameraman.png');
+  background-image: url(../images/fall-season.png);
   background-size: cover;
   width: 630px;
   font-size: 30px;
+  color: white;
 }
 
-.column.medium #story-4 {
+#story-3 {
   display: flex;
-  background-image: url('./resources/images/cat-ceo.png');
+  background-image: url(../images/hipster-cameraman.png);
   background-size: cover;
+  width: 630px;
   font-size: 30px;
+  color: white;
+}
+
+#story-4 {
+  display: flex;
+  background-image: url(../images/cat-ceo.png);
+  background-size: cover;
+  width: 300px;
+  font-size: 30px;
+  color: white;
 }
 
 .column.small {
   display: flex;
-  background-image: url('./resources/images/cookie.png')
+  background-image: url(../images/cookie.png)
 
 }
