@@ -76,7 +76,7 @@ main {
   /* Stories */
 .column.large #story-1 {
   display: flex;
-  background: url('file://C:codingprojects/mytimes/resources/images/main-story.png');
+  background: url('./resources/images/main-story.png');
   background-size: cover;
   width: 630px;
   color: white;
@@ -87,7 +87,7 @@ main {
 
 .column.large #story-2 {
   display: flex;
-  background: url('file://C:codingprojects/mytimes/resources/images/fall-season.png');
+  background-image: url('./resources/images/fall-season.png');
   background-size: cover;
   width: 630px;
   color: white;
@@ -98,7 +98,7 @@ main {
 
 .column.large #story-3 {
   display: flex;
-  background: url('file://C:codingprojects/mytimes/resources/images/hipster-cameraman.png');
+  background-image: url('./resources/images/hipster-cameraman.png');
   background-size: cover;
   width: 630px;
   color: white;
@@ -108,7 +108,7 @@ main {
 }
 
 .column.medium #story-4 {
-  background: url('file://C:codingprojects/mytimes/resources/images/cat-ceo.png');
+  background-image: url('./resources/images/cat-ceo.png');
   background-size: cover;
   color:white;
   font-family: Georgia;
