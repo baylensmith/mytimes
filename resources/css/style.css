@@ -40,16 +40,19 @@ nav span a {
 
 main {
   display: flex;
+  margin-top: 100px;
+  border: 1px solid black;
 }
 
 .column {
   font-family: Georgia;
   font-size: 17px;
   color: black;
+  margin: 15px 15px;
+  border: 1px solid black;
 }
 
 .column.large {
-  margin-top: 300px
   width: 630px;
   display: flex;
   flex-direction: column;
@@ -57,7 +60,6 @@ main {
 }
 
 .column.medium {
-  margin-top: 200px
   width: 300px;
   display: flex;
   flex-direction: column;
@@ -65,7 +67,6 @@ main {
 }
 
 .column.small {
-  margin-top: 400px
   width: 240px;
   display: flex;
   flex-direction: column;
