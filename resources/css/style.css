@@ -38,6 +38,10 @@ nav span a {
 
 /* Main Content Structure */
 
+main {
+  display: flex;
+}
+
 .column {
   font-family: Georgia;
   font-size: 17px;
@@ -45,6 +49,7 @@ nav span a {
 }
 
 .column.large {
+  margin-top: 300px
   width: 630px;
   display: flex;
   flex-direction: column;
@@ -52,6 +57,7 @@ nav span a {
 }
 
 .column.medium {
+  margin-top: 200px
   width: 300px;
   display: flex;
   flex-direction: column;
@@ -59,6 +65,7 @@ nav span a {
 }
 
 .column.small {
+  margin-top: 400px
   width: 240px;
   display: flex;
   flex-direction: column;
