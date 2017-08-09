@@ -44,21 +44,21 @@ nav span a {
   color: black;
 }
 
-.column#large {
+.column.large {
   width: 630px;
   display: flex;
   flex-direction: column;
   border: 1px solid black;
 }
 
-.column#medium {
+.column.medium {
   width: 300px;
   display: flex;
   flex-direction: column;
   border: 1px solid black;
 }
 
-.column#small {
+.column.small {
   width: 240px;
   display: flex;
   flex-direction: column;
@@ -66,7 +66,7 @@ nav span a {
 }
 
   /* Stories */
-.column#large #story-1 {
+.column.large #story-1 {
   display: flex;
   background: url('file://C:codingprojects/mytimes/resources/images/main-story.png');
   background-size: cover;
@@ -77,7 +77,7 @@ nav span a {
   font-size: 40px;
 }
 
-.column#large #story-2 {
+.column.large #story-2 {
   display: flex;
   background: url('file://C:codingprojects/mytimes/resources/images/fall-season.png');
   background-size: cover;
@@ -88,7 +88,7 @@ nav span a {
   font-size: 30px;
 }
 
-.column#large #story-3 {
+.column.large #story-3 {
   display: flex;
   background: url('file://C:codingprojects/mytimes/resources/images/hipster-cameraman.png');
   background-size: cover;
@@ -99,7 +99,7 @@ nav span a {
   font-size: 30px;
 }
 
-.column#medium #story-4 {
+.column.medium #story-4 {
   background: url('file://C:codingprojects/mytimes/resources/images/cat-ceo.png');
   background-size: cover;
   color:white;
@@ -108,4 +108,6 @@ nav span a {
   font-size: 30px;
 }
 
-.column#small
+.column.small {
+
+}
