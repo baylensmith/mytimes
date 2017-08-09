@@ -91,40 +91,64 @@ main {
     display: flex;
     background-image: url(../images/main-story.png);
     background-size: cover;
-    width: 630px;
+    width: 100%;
     font-size: 40px;
     color: white;
 }
 
-#story-2 {
+/* #story-2 {
   display: flex;
   background-image: url(../images/fall-season.png);
   background-size: cover;
-  width: 630px;
+  width: 100%;
   font-size: 30px;
+  color: white;
+} */
+
+#story-2 {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../images/fall-season.png);
+  background-size: cover;
+  justify-content: center;
+  width: 630px;
+  height: 600px;
   color: white;
 }
 
 #story-3 {
   display: flex;
+  flex-direction: column;
   background-image: url(../images/hipster-cameraman.png);
   background-size: cover;
+  justify-content: center;
   width: 630px;
+  height: 600px;
   font-size: 30px;
   color: white;
 }
 
 #story-4 {
-  display: flex;
-  background-image: url(../images/cat-ceo.png);
-  background-size: cover;
-  width: 300px;
+  width: 100%;
   font-size: 30px;
   color: white;
 }
 
+#story-4 h2 {
+  background-image: url(../images/cat-ceo.png);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 200px;
+}
+
+#story-4 p {
+  font-size: 19px;
+  color: black;
+}
+
 .column.small {
   display: flex;
-  background-image: url(../images/cookie.png)
 
 }
